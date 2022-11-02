@@ -1,0 +1,47 @@
+.replyControl {
+  width: 40%;
+  margin: 1rem auto;
+}
+
+.replyControl label {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.replyControl textarea {
+  width: 100%;
+  height: 10rem;
+  font-size: 1.1rem;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+}
+
+.replyControl button {
+  cursor: pointer;
+  margin: auto 1rem;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: rgb(126, 126, 212);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.replyControl button:hover {
+  font-size: 1.2rem;
+  padding: 0.6rem;
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.replyControl button:disabled {
+  cursor: not-allowed;
+  background-color: gray;
+}
+
+.errorText {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: rgb(218, 59, 59);
+}

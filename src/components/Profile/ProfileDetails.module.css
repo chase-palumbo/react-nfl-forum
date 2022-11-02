@@ -1,0 +1,59 @@
+.detailsContainer {
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profilePicture {
+  display: block;
+  margin-top: 1rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 1px;
+  height: auto;
+  width: 20rem;
+}
+
+.editPicBtn {
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: blue;
+  background-color: rgba(255, 255, 255, 0.71);
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.favTeam input,
+.favTeam button {
+  margin: auto 0.5rem;
+  font-size: 1.25rem;
+}
+
+.favTeam img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.1rem;
+  height: 1.1rem;
+}
+
+.favTeam button {
+  font-size: 1rem;
+  padding: 0.3rem;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  border: none;
+  border-radius: 5px;
+  color: blue;
+  background-color: rgba(255, 255, 255, 0.688);
+}
+
+.editPicBtn:hover,
+.favTeam button:hover {
+  background-color: rgb(192, 190, 190);
+}
+

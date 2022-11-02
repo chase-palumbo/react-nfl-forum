@@ -1,0 +1,41 @@
+.profileContainer {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.contentContainer {
+  width: 50%;
+  box-shadow: 1px 1px 7px 5px;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.sideBar {
+  width: 20%;
+  padding: 2rem;
+}
+
+.sideBar h1 {
+  text-align: center;
+}
+
+.sideBar ul {
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.sideBar ul li {
+  margin-bottom: 1rem;
+}
+
+.navlink {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.active {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(59, 59, 59);
+}

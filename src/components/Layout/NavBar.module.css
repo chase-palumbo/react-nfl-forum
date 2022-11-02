@@ -1,0 +1,53 @@
+.header {
+  position: relative;
+  height: 6rem;
+  display: flex;
+  padding: 0 10%;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+.headerTitle h1 {
+  display: inline-block;
+  color: white;
+}
+
+.headerTitle img {
+  display: inline-block;
+}
+
+.welcomeText {
+  color: white;
+}
+
+.nav ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+}
+
+.nav li {
+  font-size: 1.25rem;
+  margin: auto 2rem;
+}
+
+.nav li button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 0.5rem;  
+}
+
+.nav a {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(49, 36, 225);
+}
+
+.nav a:hover,
+.nav a:active,
+.nav a.active {
+  color: rgb(3, 3, 111);
+  /* border-bottom: 2px solid rgb(235, 143, 143); */
+}

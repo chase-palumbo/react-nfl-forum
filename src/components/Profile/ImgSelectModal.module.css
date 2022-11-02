@@ -1,0 +1,25 @@
+.imgContainer {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imgContainer li {
+  width: 12.5%;
+  /* margin: 0.5rem 0.5rem; */
+  padding: 0.5rem 0.5rem;
+}
+
+.imgContainer img {
+  height: auto;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px;
+}
+
+.imgContainer img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+} 

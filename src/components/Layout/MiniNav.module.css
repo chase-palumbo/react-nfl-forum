@@ -1,0 +1,20 @@
+.miniNav {
+  margin-left: 5%;
+  font-size: 1.1rem;
+}
+
+.miniNav ul {
+  display: flex;
+  list-style: none;
+}
+
+.segment p {
+  display: inline;
+  margin: 1rem;
+}
+
+.segmentLink {
+  cursor: pointer;
+  color: rgb(4, 4, 155);
+  text-decoration: none;
+}

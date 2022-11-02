@@ -1,0 +1,54 @@
+.topicsLayout {
+  display: flex;
+  justify-content: center;
+}
+
+.topicsContainer {
+  width: 30%;
+  background-color: rgb(244, 246, 208);
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: auto 2rem;
+  box-shadow: 1px 1px 2px 1px;
+}
+
+.topicsContainer ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.topicItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  font-size: 1.5rem;
+}
+
+.topicItem a {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(51, 50, 50);
+  margin-left: 2rem;
+}
+
+.topicItem a:visited {
+  color: rgb(143, 64, 143);
+}
+
+.threadInfo {
+  margin-right: 3rem;
+}
+
+.threadInfo img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+
+.threadInfo p {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.1rem;
+}

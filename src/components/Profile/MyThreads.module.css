@@ -1,0 +1,40 @@
+.myThreadsContainer {
+  width: 95%;
+  margin-left: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.noThreadsText {
+  text-align: center;
+}
+
+.myThreadsContainer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.threadAction {
+  margin-top: 1rem;
+}
+
+.threadAction button {
+  cursor: pointer;
+  margin-left: 1.2rem;
+  display: inline-block;
+  background-color: rgb(245, 151, 151);
+  border: none;
+  border-radius: 5px;
+  padding: 0.3rem;
+  color: rgb(42, 42, 42);
+}
+
+.threadDate {
+  display: inline-block;
+  margin-left: 1rem;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: rgb(29, 29, 29);
+}
+
+

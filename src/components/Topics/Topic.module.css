@@ -1,0 +1,31 @@
+.topic {
+  margin: auto;
+  padding-top: 0.25rem;
+  height: 30vh;
+  width: 30vw;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.topic h1 {
+  font-size: 2rem;
+}
+
+.topic p {
+  font-size: 1.5rem;
+}
+
+.general {
+  background-color: darkred;
+}
+
+.teams {
+  background-color: darkblue;
+}
+
+.players {
+  background-color: darkgreen;
+}
+

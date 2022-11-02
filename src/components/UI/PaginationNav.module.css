@@ -1,0 +1,23 @@
+.pagination {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.pagination button {
+  margin: auto 0.2rem;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  background: none;
+  border: none;
+  color: blue;
+}
+
+.pagination button:hover {
+  transform: scale(1.2);
+}
+
+.pagination .activeBtn {
+  background-color: lightblue;
+  border-radius: 10px;
+}

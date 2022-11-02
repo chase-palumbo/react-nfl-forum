@@ -1,0 +1,38 @@
+.postReplyBtn {
+  cursor: pointer;
+  display: block;
+  width: 20%;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: rgb(29, 209, 29);
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 1rem;
+  margin: auto;
+  box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.2);
+}
+
+.threadTitle {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  margin-left: 15%;
+  color: rgb(32, 35, 80);
+}
+
+.postsContainer {
+  width: 70%;
+  margin: auto;
+}
+
+.postsContainer ul {
+  border: 1px solid black;
+  border-radius: 10px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.signInText {
+  font-size: 1.5rem;
+  text-align: center;
+}

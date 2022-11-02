@@ -1,0 +1,77 @@
+.postContainer {
+  display: flex;
+  border-bottom: 1px solid gray;
+}
+
+.postContainer:first-child .userInfoBox {
+  border-top-left-radius: 10px;
+}
+
+.postContainer:first-child .postInfoBox {
+  border-top-right-radius: 10px;
+}
+
+.postContainer:last-child .userInfoBox {
+  border-bottom-left-radius: 10px;
+}
+
+.postContainer:last-child .postInfoBox {
+  border-bottom-right-radius: 10px;
+}
+
+.postContainer:last-child {
+  border-bottom: none;
+}
+
+.userInfoBox {
+  width: 20%;
+  border-right: 1px solid gray;
+  background-color: #96bcca;
+}
+
+.userInfoBox img {
+  display: block;
+  height: auto;
+  width: 9rem;
+  box-shadow: 1px 1px 3px 1px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.userInfoText {
+  width: fit-content;
+  margin: auto;
+}
+
+.userInfoText p {
+  margin: 0.7rem auto;
+}
+
+.postInfoBox {
+  padding: 0 1rem;
+  position: relative;
+  width: 80%;
+  background-color: #b0d2e7;
+  padding-left: 1rem;
+}
+
+.postInfoBox button {
+  position: absolute;
+  bottom: 1rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  display: block;
+  color: blue;
+  font-weight: bold;
+  border: none;
+  background: none;
+  
+}
+
+.postInfoDate {
+  color: rgb(95, 94, 94);
+}
+
+
+

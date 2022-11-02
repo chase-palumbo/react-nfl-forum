@@ -1,0 +1,101 @@
+.listItem {
+  display: flex;
+  border-bottom: 1px solid rgb(80, 79, 79)
+}
+
+.listItem:first-child .threadPoster {
+  border-top-left-radius: 12px;
+}
+
+.listItem:first-child .threadDate {
+  border-top-right-radius: 12px;
+}
+
+.listItem:last-child .threadPoster {
+  border-bottom-left-radius: 12px;
+}
+
+.listItem:last-child .threadDate {
+  border-bottom-right-radius: 12px;
+}
+
+.threadPosterBox {
+  width: 15%;
+  border-right: 1px solid rgb(73, 73, 73);
+}
+
+.threadPosterBox p {  
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: 500;
+}
+
+.threadTitleBox {
+  background-color: lightblue;
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.threadTitle {
+  width: 80%;
+  margin-left: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.threadTitle a {
+  color: black;
+  text-decoration: none;
+}
+
+.threadTitle a:visited {
+  color: rgb(139, 2, 139);
+}
+
+.threadTitle img {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 1rem;
+  width: 1.5rem
+}
+
+.threadTitle img:hover {
+  transform: scale(1.2);
+}
+
+.totalReplies {
+  height: 50%;
+  margin-left: auto;
+  margin-right: 2rem;
+  font-size: 1rem;
+  color: rgb(9, 9, 83)
+}
+
+.totalReplies img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.threadDateBox {
+  border-left: 1px solid rgb(80, 79, 79);
+  width: 15%;
+  text-align: center;
+};
+
+.threadDateText {
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+

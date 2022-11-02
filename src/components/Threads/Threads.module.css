@@ -1,0 +1,67 @@
+.threadContainer {
+  margin: auto;
+  width: 70%;
+}
+
+.threadContainer h1 {
+  color: rgb(9, 9, 117);
+  text-align: center;
+}
+
+.createThreadButton {
+  cursor: pointer;
+  display: block;
+  width: 30%;
+  font-size: 2rem;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-radius: 7px;
+  border: none;
+  font-weight: bold;
+  background-color: rgb(60, 60, 213);
+  color: white;
+  box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.2);
+}
+
+.threadsNav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sortBox {
+  font-size: 1.1rem;
+}
+
+.sortBox img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+.sortBtn {
+  cursor: pointer;
+  color: blue;
+  margin-left: 0.4rem;
+}
+
+.threads {
+  background-color: rgb(236, 242, 201);
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
+.threads ul {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.signInText {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+
+
+
