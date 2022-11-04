@@ -31,7 +31,6 @@ import texansLogoImg from '../img/logos/texansLogo.png';
 import titansLogoImg from '../img/logos/titansLogo.png';
 import vikingsLogoImg from '../img/logos/vikingsLogo.png';
 
-
 const teamLogos = [
   {
     id: 'bearsLogo',

@@ -27,11 +27,14 @@ const Post = (props) => {
     setDirectReplyClicked(false);
   };
 
+  // FIX PROFILE PICTURE SRC ON VERCEL
+  const VERCEL_PROFILE_PICTURE_SRC = props.img.replace('http://localhost:3000', 'https://react-nfl-forum.vercel.app');
+
   return (
     <>
       <li className={classes.postContainer}>
         <div className={classes.userInfoBox}>
-          <img src={props.img} alt="Profile Picture" />
+          <img src={VERCEL_PROFILE_PICTURE_SRC} alt="Profile Picture" />
           <div className={classes.userInfoText}>
             <p>{props.username}</p>
             <p>Total Posts: {props.totalPosts}</p>
